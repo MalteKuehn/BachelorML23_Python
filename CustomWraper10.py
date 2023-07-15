@@ -145,7 +145,7 @@ class ShowerEnv(Env):
         #        if self.press <= 5.15:
         #            reward = 12 / 2.15 * (self.press - 3)
         #        elif self.press <= 7.3:
-        #            reward = -12 / 2.15) * (self.press - 7.3)
+        #            reward = (-12 / 2.15) * (self.press - 7.3)
         #        elif self.press < 8:
         #            reward = -12 * (self.press - 7.3)
         #        #else:
